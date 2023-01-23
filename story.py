@@ -53,6 +53,7 @@ for character in character_list:
     character_appearances[character] = {"first_appearance": first_appearance, "last_appearance": last_appearance}
 
 def print_summary():
+    print("SUMMARY:")
     summary = {}
     for i, chapter in enumerate(chapter_list):
         summary[i+1] = {"name": chapter, "characters_first_appear": [], "characters_last_appear": []}
